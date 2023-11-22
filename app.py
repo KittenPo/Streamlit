@@ -16,7 +16,7 @@ import plotly.graph_objects as go
 # ==============================
 # LOAD DATA
 # ==============================
-!wget 
+
 def load_data():
     data = pd.read_csv('main_data.csv')
     return data
