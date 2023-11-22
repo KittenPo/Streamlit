@@ -18,7 +18,7 @@ import plotly.graph_objects as go
 # ==============================
 
 def load_data():
-    data = pd.read_csv('main_data.csv')
+    data = pd.read_csv('PRSA_Data_Dingling_20130301-20170228.csv')
     return data
 
 data = load_data()
